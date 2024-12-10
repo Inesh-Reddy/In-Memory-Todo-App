@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+
+# npm package-lock file
+package-lock.json
+
+# Yarn lock file
+yarn.lock
+
+# Build output
+/dist/
+/build/
+
+# Logs
+*.log
+
+# Operating System files
+.DS_Store    # macOS
+Thumbs.db    # Windows
+
+# IDE/editor config
+.idea/       # IntelliJ IDEA/WebStorm
+.vscode/     # Visual Studio Code
+
+# dotenv environment files
+.env         # .env for environment variables (make sure to add it to your .env file for local dev)
+.env.local   # Local environment variables (if needed)
+
+# Dependency directories
+jspm_packages/
+
+# Coverage reports
+coverage/
+
+# Testing
+*.test.js    # Test files
+*.spec.js    # Spec files
+
+# Temporary files
+*.swp        # Vim swap files
+*.swo        # Vim swap files
+*.bak        # Backup files
+*.tmp        # Temporary files
+
+# Other files
+*.tgz         # Tarball files
+*.zip         # Compressed files
